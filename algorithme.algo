@@ -1,0 +1,26 @@
+ var ch:CHAR;
+count := 0;  
+w:=1;
+ v:=0; 
+ begin
+REPEAT
+    read(ch)
+    count:=count+1;
+   
+   IF  (ch='a' or ch='i' or ch='u' or ch='e' or ch='y' or ch='A' or ch='U' or ch='I' or ch='E' or ch='Y') THEN
+    v:= v+1;
+   END_IF
+   
+    IF (ch=' ') THEN
+        w:=w+1;
+        
+    END_IF
+    i
+UNTIL (ch='.')
+write('number of characters :' + str(count))
+
+ write('number of words :' + str(w))
+ write('number of vowls :' + str(v))
+
+end;
+   
